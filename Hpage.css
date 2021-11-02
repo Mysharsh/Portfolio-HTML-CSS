@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+  transition:ease-in-out;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  /* animation-duration: 2s; */
+}
+mark{
+    background-color:blanchedalmond ;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.basic-div{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: auto;
+}
+.intro-container{
+
+    background-image: url("/resources/Images/div1.jpg");
+}
+.intro-container > div {
+    margin: auto;
+    align-self: flex-start;
+  }
+.profile-container{
+    background-image: url("/resources/Images/profile.jpg");
+    height: 15em;
+    width: 15em;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    box-shadow:  10px 10px 20px #b3b3b3,
+                -10px -10px 20px #ffffff;
+    transition-duration: 0.5s;
+}
+
+.profile-container:hover{
+    /* height:11.5em ;
+    width: 11.5em; */
+    box-shadow:  -10px 10px 20px #b3b3b3,
+             10px -10px 20px #ffffff;
+}
+
+.intro-text{
+    font-size: 30px;
+}
+.button-container{
+    /* display: grid; */
+    grid-auto-flow:column dense;
+    
+}
+.button-container > a > img {
+    height: 2em;
+    max-width: 2em;
+    margin: 30px;
+}
+.skill-container{
+    background-image: url("/resources/Images/div2.jpg");
+}
+.skill-container > .card{
+    margin: auto;
+    align-self: flex-start;
+    /* margin-bottom: 10px; */
+}
+.button-container > a > img:hover{
+    border-radius: 110%;
+box-shadow:  -10px 10px 20px #b3b3b3,
+             10px -10px 20px #ffffff;
+            }
+
+.card{
+    backdrop-filter: blur(10px) saturate(44%);
+    -webkit-backdrop-filter: blur(10px) saturate(44%);
+    background-color: rgba(25, 37, 59, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(153, 39, 39, 0.125);
+    padding:3em;
+    height: 600px;
+    width: 500px;
+    color:snow;
+    margin-bottom:10px;
+
+}
+dt{
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+dl{
+    font-size: 1.15em;
+}
+.my-project{
+
+}
+.my-project > div {
+    margin: auto;
+    height:95vh;
+    
+  }
+.my-project > p{
+text-align: center;
+font-weight: 500;
+font-size: xx-large;
+color: #b3b3b3;
+margin: 0px 0px 0px 0px ;
+}
+
+/* Diamond Grid Experiment */
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns:  repeat(4,1fr);
+    row-gap: 3em;
+    
+}
+.child{
+    height:15em;
+    width: 20em;
+    border:5px;
+    background-color: #fff;
+    transition-duration: 0.2s;
+    justify-self: center;
+    z-index: 2;
+}
+.child:hover{
+    box-shadow:  10px 10px 20px #b3b3b3,
+    -10px -10px 20px #ffffff;
+}
+.child:nth-child(odd) {
+    background:aquamarine;
+  }
+  
+.child:nth-child(even) {
+    background:teal;
+  }
+
+.contact-container{
+    background-image: url("/resources/Images/div4.jpg");
+    height: 180vh;
+    
+}
+
+.contact-container > div{
+    margin: auto;
+    align-self: flex-start;
+    backdrop-filter: blur(10px) saturate(44%);
+    -webkit-backdrop-filter: blur(10px) saturate(44%);
+    background-color: rgb(228, 197, 169,0.6);
+    border-radius: 12px;
+    border: 1px solid rgb(100, 86, 74, 0.125);
+    height: 40em;
+    width: 35em;
+    padding: 100px;
+    font-size: x-large;
+    text-align: center;
+}
+.textbar{
+    border-radius: 20px;
+    padding:10px;
+    width: 100%;
+    margin: 3px 3px 3px 3px;
+    border: 0px;
+    color: rgb(0, 61, 53);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+textarea{
+    height: 10em;
+    width: 100%;
+    border-radius: 20px;
+    padding:10px;
+    margin: 3px 3px 3px 3px;
+    border: 0px;
+    color: rgb(0, 61, 53);
+    font-weight: lighter;
+    font-size: xx-large;
+    resize: none;
+}
+.button{
+    padding:20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(117, 62, 14, 0.493);
+    width:16rem;
+    cursor: pointer;
+    font-size: xx-large;
+    
+}
+.Working{
+    font-size: 30em;
+    overflow: hidden;
+    z-index: 0.5;
+    position: absolute;
+    top:3em;
+    color:rgba(117, 62, 14, 0.493);
+}
