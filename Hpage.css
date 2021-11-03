@@ -25,14 +25,14 @@ mark{
 }
 .intro-container{
 
-    background-image: url("/resources/Images/div1.jpg");
+    background-image: url("resources/Images/div1.jpg");
 }
 .intro-container > div {
     margin: auto;
     align-self: flex-start;
   }
 .profile-container{
-    background-image: url("/resources/Images/profile.jpg");
+    background-image: url("resources/Images/profile.jpg");
     height: 15em;
     width: 15em;
     border-radius: 100%;
@@ -65,7 +65,7 @@ mark{
     margin: 30px;
 }
 .skill-container{
-    background-image: url("/resources/Images/div2.jpg");
+    background-image: url("resources/Images/div2.jpg");
 }
 .skill-container > .card{
     margin: auto;
@@ -104,7 +104,7 @@ dl{
 }
 .my-project > div {
     margin: auto;
-    height:95vh;
+    height:120vh;
     
   }
 .my-project > p{
@@ -145,7 +145,7 @@ margin: 0px 0px 0px 0px ;
   }
 
 .contact-container{
-    background-image: url("/resources/Images/div4.jpg");
+    background-image: url("resources/Images/div4.jpg");
     height: 180vh;
     
 }
