@@ -1,483 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="mediaqueries.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
 </head>
+
 <body>
-   <nav id="desktop-nav">
-   <div class="logo">
-    <h1 style="font-family: 'tutano.cc';">ht
-    </h1></div>
-   <div>
-    <ul class="nav-links">
+  <nav id="desktop-nav">
+    <div class="logo">
+      <h1 style="font-family: 'tutano.cc';">ht
+      </h1>
+    </div>
+    <div>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div style="font-family: 'tutano.cc';" class="logo">ht</div>
-        <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="togglemenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="togglemenu()">About</a></li>
-            <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
-            <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
-            <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
-        </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div style="font-family: 'tutano.cc';" class="logo">ht</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="togglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="togglemenu()">About</a></li>
+        <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+        <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+        <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+      </div>
     </div>
-</nav>
-<section id="profile">
+  </nav>
+  <section id="profile">
     <div class="section__pic-container">
-        <img src="./assets/Images/Profile.png" alt="harsh profile pic"/>
+      <img src="./assets/Images/Profile.png" alt="harsh profile pic" />
     </div>
     <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Harsh Tyagi</h1>
-        <p class="section__text__p2">UI/UX Designer</p>
-        <div class="btn-contianer">
-            <button class="btn btn-color-2" 
-            onclick="window.open('./assets/Harsh-Resume.pdf')">
-            Download CV
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Harsh Tyagi</h1>
+      <p class="section__text__p2">UI/UX Designer</p>
+      <div class="btn-contianer">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Harsh-Resume.pdf')">
+          Download CV
         </button>
-        <button class="btn btn-color-1" 
-        onclick="location.href='./#contact'">
-        Contact Info
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
         </button>
-        </div>
-        <div id="socials-container">
-            <img
-              src="./assets/icon/linkedin.png"
-              alt="My LinkedIn profile"
-              class="icon"
-              onclick="location.href='https://linkedin.com/harshtyagi12'"
-            />
-            <img
-              src="./assets/icon/github.png"
-              alt="My Github profile"
-              class="icon"
-              onclick="location.href='https://github.com/mysharsh'"
-            />
-          </div>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/icon/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/harshtyagi12'" />
+        <img src="./assets/icon/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/mysharsh'" />
+      </div>
     </div>
-</section>
-<section id="about">
+  </section>
+  <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
       <div class="section__pic-container">
-        <img
-          src="./assets/Images/profile-pic1.png"
-          alt="Profile picture"
-          class="about-pic"
-        />
+        <img src="./assets/Images/profile-pic1.png" alt="Profile picture" class="about-pic" />
       </div>
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <img
-              src="./assets/icon/experience.png"
-              alt="Experience icon"
-              class="icon"
-            />
+            <img src="./assets/icon/experience.png" alt="Experience icon" class="icon" />
             <h3>Experience</h3>
             <p>6+ Months <br />UI/UX Designer</p>
           </div>
           <div class="details-container">
-            <img
-              src="./assets/icon/education.png"
-              alt="Education icon"
-              class="icon"
-            />
+            <img src="./assets/icon/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
             <p>B.Tech Bachelors Degree</p>
           </div>
         </div>
         <div class="text-container">
           <p>
-            Hello there! I'm Harsh Tyagi, a dedicated UI/UX designer with a keen eye for detail and a love for creating seamless, user-centric digital experiences.<br>
-            Design, for me, is not just about aesthetics; it's a powerful tool to enhance usability and elevate the overall user experience. I am driven by the belief that thoughtful and user-centered design can make a significant impact on how people interact with technology.
+            Hello there! I'm Harsh Tyagi, a dedicated UI/UX designer with a keen eye for detail and a love for creating
+            seamless, user-centric digital experiences.<br>
+            Design, for me, is not just about aesthetics; it's a powerful tool to enhance usability and elevate the
+            overall user experience. I am driven by the belief that thoughtful and user-centered design can make a
+            significant impact on how people interact with technology.
           </p>
         </div>
       </div>
     </div>
-    <img
-      src="./assets/icon/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#experience'"
-    />
+    <img src="./assets/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Java</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Python</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>User Interface</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>WireFrame</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Prototyping</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Material UI</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>MySQL</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Node JS</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Figma</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/icon/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Github</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Java</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Python</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>User Interface</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>WireFrame and Prototyping</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Material UI</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
         </div>
       </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>MySQL</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Node JS</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Figma</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/icon/checkmark.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Github</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
     </div>
-    <img
-      src="./assets/icon/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-    />
+    <img src="./assets/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/AIMS.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">AIMS App</h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+    <div class="project-container">
+      <div class="project-details-container color-container">
+        <div class="project-content">
+          <img src="./assets/Images/AIMS.png" alt="Project 1" class="project-img" />
+          <h3 class=" project-title">AIMS App</h3>
+        <div class="skills">
+          <span>UI/UX</span>
+          <span>AI/ML</span>
+          <span>JAVA</span>
+          <span>XML</span>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/Frame 37007.png"
-              alt="Project 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">SilentVerse Game</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Mysharsh/AIMS', '_blank')">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.behance.net/gallery/191914565/AIMS-APP-UIUX', '_blank')">
+            Live Demo
+          </button>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/A Music Player.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">Mr. Player Music </h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/Mysharsh/Mr.Player'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+      </div>
+      </div>
+      <div class="project-details-container color-container">
+        <div class="project-content">
+          <img src="./assets/Images/Frame 37007.png" alt="Project 2" class="project-img" />
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/pharmacy-app.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">ApniCare Medi. App </h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+        <h2 class="project-title">SilentVerse Game</h2>
+        <div class="skills">
+          <span>Unity</span>
+          <span>C#</span>
+          <span>Photon</span>
+          <span>Design</span>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/pharmacy-app.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">School Management System Software</h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Mysharsh/JKLU', '_blank')">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://youtu.be/0QBBhH6lGzU', '_blank')">
+            Live Demo
+          </button>
         </div>
-        <div class="details-container " style="border-color: white;"> </div>
-        <div class="details-container " style="border-color: white;"> </div>
-        <!-- <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/pharmacy-app.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">ApniCare Medi. App </h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
+      </div>
+      <div class="project-details-container color-container">
+        <div class="project-content">
+          <img src="./assets/Images/A Music Player.png" alt="Project 3" class="project-img" />
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/pharmacy-app.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">ApniCare Medi. App </h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div> -->
-        <div class="details-container " style="border-color: white;"> </div>
-        <!-- <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/Images/pharmacy-app.png"
-              alt="Project 3"
-              class="project-img"
-            />
-          </div>
-          <h3 class="experience-sub-title project-title">ApniCare Medi. App </h3>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div> -->
+        <h3 class="project-title">Mr. Player Music </h3>
+        <div class="skills">
+          <span>Python</span>
+          <span>API</span>
+          <span>Design</span>
+          <span>PyQT5</span>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Mysharsh/Mr.Player','_blank')">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com', '_blank')">
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="project-details-container color-container">
+        <div class="project-content">
+          <img src="./assets/Images/pharmacy-app.png" alt="Project 3" class="project-img" />
+        </div>
+        <h3 class="project-title">ApniCare Medi. App </h3>
+        <div class="skills">
+          <span>Java</span>
+          <span>XML</span>
+          <span>API</span>
+          <span>UI/UX</span>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Mysharsh/Apni-Care', '_blank')">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com', '_blank')">
+            Live Demo
+          </button>
+        </div>
       </div>
     </div>
-    <img
-      src="./assets/icon/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-    />
+    <img src="./assets/icon/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
-        <img
-          src="./assets//icon/email.png"
-          alt="Email icon"
-          class="icon contact-icon email-icon"
-        />
+        <img src="./assets//icon/email.png" alt="Email icon" class="icon contact-icon email-icon" />
         <p><a href="mailto:harshtyagi0012@gmail.com">harshtyag0012@gmail.com</a></p>
       </div>
       <div class="contact-info-container">
-        <img
-          src="./assets/icon/linkedin.png"
-          alt="LinkedIn icon"
-          class="icon contact-icon"
-        />
+        <img src="./assets/icon/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
         <p><a href="https://www.linkedin.com/in/harshtyagi12/">LinkedIn</a></p>
       </div>
     </div>
@@ -495,6 +291,7 @@
     </nav>
     <p>Copyright &#169; 2023 Harsh. All Rights Reserved.</p>
   </footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
